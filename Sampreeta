@@ -20,6 +20,9 @@ if(strcmp(sid,emp1[i].id==0){
 flag=1;
 }
 }
+
+this is lavanya
+
 if(flag==1){
 printf("employee found");
 }
@@ -28,3 +31,5 @@ printf("employee not found");
 }
 return 0;
 }
+
+thus is the end
