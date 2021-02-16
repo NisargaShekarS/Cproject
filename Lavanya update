@@ -12,3 +12,5 @@ strcpy(emp1[i].name,sname);
 break;
 }
 }
+
+hi this is lavanya 
