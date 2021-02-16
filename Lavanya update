@@ -1,14 +1,14 @@
 printf("enter id to update");
 scanf("%s",sid);
 for(int i=0;i<3;i++){
-if(strcmp(sid,employees[i].id)==0)
+if(strcmp(sid,emp1[i].id)==0)
 {
 flag=1;sindex=i;
 printf("enter new id and name);
 scanf("%s",sid);
 scanf("%s",sname);
-strcpy(employees[i].id,sid);
-strcpy(employees[i].name,sname);
+strcpy(emp1[i].id,sid);
+strcpy(emp1[i].name,sname);
 break;
 }
 }
